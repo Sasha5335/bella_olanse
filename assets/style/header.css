@@ -9,7 +9,7 @@
 }
 
 .logo-img{
-	max-width: 13rem;
+	max-width: 10rem;
 }
 
 .nav{
@@ -24,7 +24,7 @@
 	position: absolute;
 	top: 0;
 	right: 30px;
-	width: 30px;
+	width: 25px;
 	height: 2px;
 	border-radius: 2px;
 	background-color: var(--text-color);
@@ -57,7 +57,7 @@
 	position: absolute;
 	top: 0;
 	right: 30px;
-	width: 30px;
+	width: 25px;
 	height: 2px;
 	transform: rotate(45deg);
 	border-radius: 2px;

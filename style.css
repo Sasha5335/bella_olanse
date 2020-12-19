@@ -1,14 +1,17 @@
 @import "./assets/style/reset.css";
 @import "./assets/style/header.css";
 @import "./assets/style/footer.css";
+@import "./assets/style/main.css";
 
 
 :root {
 	--accent-color:#FA4A0C;
 	--text-color: #737373;
 	--second-bg-color: #252B42;
-	--head-font-title: 'Poppins', sans-serif;
+	--head-font-title: 'Poppins' sans-serif;
 	
 	font-size: 16px;
 	font-family: 'Montserrat', sans-serif;
   }
+
+  
