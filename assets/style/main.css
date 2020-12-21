@@ -37,6 +37,10 @@
 	color: var(--text-color);
 }
 
+.main-btn{
+	margin-top: 2.2rem;
+}
+
 .btn {
 	display: block;
 	background-color: var(--accent-color);
@@ -63,6 +67,36 @@
 	box-shadow: 0 0 10px rgba(0,0,0,0.5)
 }
 
-.main-img img{
-	max-width: 18.75rem;
+.main-img{
+	display: flex;
+	width: 100%;
+	margin-top: 2.5rem;
+	justify-content: center;
+	
 }
+
+.main-img > img{
+	max-width: 50%;
+	filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
+}
+
+.main-img > img:last-child{
+	margin-top: 50px; 
+	margin-left: -30px;
+	z-index: -1;
+}
+
+@media screen and (min-width: 700px) {
+	.main-btn {
+		display: flex;
+		margin-top: 3.2rem;
+	}
+
+	.btn-transparent{
+		margin-top: 0;
+		margin-left: 2.5rem;
+	}
+
+  }
+
+
