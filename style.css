@@ -1,8 +1,10 @@
 @import "./assets/style/reset.css";
+@import "./assets/style/default.css";
 @import "./assets/style/header.css";
 @import "./assets/style/footer.css";
 @import "./assets/style/main.css";
 @import "./assets/style/application.css";
+@import "./assets/style/download.css";
 
 
 :root {
@@ -14,5 +16,8 @@
 	font-size: 16px;
 	font-family: 'Montserrat', sans-serif;
   }
+
+
+
 
   

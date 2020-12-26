@@ -22,7 +22,8 @@
 	color: var(--text-color);
 }
 
-.main-section > h1{
+.main-title {
+	max-width: 940px;
 	padding: 10px;
 	font-size: 2.25rem;
 	font-family: var(--head-font-title);
@@ -30,41 +31,19 @@
 	line-height: 42.5px;
 }
 
-.main-section > p{
+.main-section .mod-paragraph {
 	padding: 10px;
-	text-align: center;
-	font-size: 1.5rem;
-	color: var(--text-color);
 }
 
 .main-btn{
+	display: flex;
+	flex-direction : column;
+	align-items: center;
 	margin-top: 2.2rem;
 }
 
-.btn {
-	display: block;
-	background-color: var(--accent-color);
-	padding: 16px 58px;
-	font-size: 1.5rem;
-	font-weight: 700;
-	color: #FFFFFF;
-	border-radius: 28px;
-	border: 0;
-	cursor: pointer;
-	border: 1px solid var(--accent-color);
-	transition: all 0.2s linear;
-}
-
-.btn-transparent{
+.main-btn > .btn-transparent{
 	margin-top: 17px;
-	background-color: #FFFFFF;
-	color: var(--accent-color);
-	border: 1px solid var(--accent-color);
-}
-
-.btn:hover,
-.btn-transparent:hover {
-	box-shadow: 0 0 10px rgba(0,0,0,0.5)
 }
 
 .main-img{
@@ -72,7 +51,6 @@
 	width: 100%;
 	margin-top: 2.5rem;
 	justify-content: center;
-	
 }
 
 .main-img > img{
@@ -89,10 +67,12 @@
 @media screen and (min-width: 700px) {
 	.main-btn {
 		display: flex;
+		flex-direction : row;
 		margin-top: 3.2rem;
 	}
-
-	.btn-transparent{
+	
+	.main-btn > .btn-transparent{
+		max-width: 250px;
 		margin-top: 0;
 		margin-left: 2.5rem;
 	}
