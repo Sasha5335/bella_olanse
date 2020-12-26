@@ -3,7 +3,7 @@
 }
 
 .download-section{
-	margin: 110px 0;
+	margin: 110px auto;
 }
 
 .download-section .mod-title{
@@ -50,6 +50,3 @@
 	box-shadow: none;
 }
 
-.div > h1{
-	color: red;
-}
