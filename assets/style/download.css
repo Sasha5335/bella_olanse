@@ -3,11 +3,15 @@
 }
 
 .download-section{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
 	margin: 110px auto;
+	color: #FFFFFF;
 }
 
-.download-section .mod-title{
-	color: #FFFFFF;
+.download-description-block{
+	text-align: center;
 }
 
 .mod-paragraph{
@@ -17,14 +21,14 @@
 
 .download-btn-block{
 	display: flex;
+	margin: 0 auto;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	align-items: center;
 }
 
 .download-btn-block > .btn{
 	max-width: 200px;
-	min-width: 	140px;
+	min-width: 140px;
 	margin-top: 2.5rem;
 	padding: 1.12rem 1.93rem;
 	font-size: 1rem;
@@ -33,7 +37,7 @@
 
 .download-btn-block > .btn-transparent{
 	margin-left: 1rem;
-	color:  #FFFFFF;
+	color: #FFFFFF;
 	background-color: #252B42;
 	border: 1px solid #FFFFFF; 
 }
@@ -50,3 +54,10 @@
 	box-shadow: none;
 }
 
+@media screen and (min-width: 700px){
+	.download{
+		background: linear-gradient(0deg, rgba(23, 16, 16, 0.6), rgba(23, 16, 16, 0.6)), url("../images/img/background-footer-min.jpg")  no-repeat center;
+		background-size: cover;
+	}
+
+}

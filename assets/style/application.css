@@ -1,8 +1,9 @@
 .application{
+	margin-top: 7.25rem;
 	text-align: center;
 }
 
-.application-description{
+.application-section{
 	margin-bottom: 43px;
 	max-width: 570px;
 	margin: 0 auto;
@@ -10,14 +11,13 @@
 }
 
 .application h2,
-/* .application p, */
 .application-link {
 	font-size: 1.5rem;
 	font-weight: 600;
 }
 
 .application h2 {
-	margin-bottom: 115px;
+	margin-bottom: 85px;
 }
 
 .application-link{
@@ -33,4 +33,44 @@
 .application-img img{
 	max-width: 260px;
 	filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.15));
+}
+
+@media screen and (min-width: 700px) {
+	
+	.application h2{
+		font-size: 2.75rem;
+	}
+
+	.application-section{
+		display: flex;
+		max-width: 85%;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.application-section-row{
+		margin: 6.2rem auto;
+		flex-direction: row-reverse;
+	}
+
+	.application-section:last-child{
+		margin-bottom: 150px;
+	}
+	
+	.application-description{
+		width: 55%;
+	}
+
+	.application-img{
+		width: 25%;
+	}
+
+
+	.application-link,
+	.mod-title,
+	.mod-paragraph{
+		margin: 0;
+		padding: 10px 0 10px 25px;
+		text-align: left;
+	}
 }
