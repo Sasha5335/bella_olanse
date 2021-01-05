@@ -1,18 +1,18 @@
-.header{ 
+.header {
 	max-width: 100%;
 }
 
-.header-contant{
+.header-contant {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
-.logo-img{
+.logo-img {
 	max-width: 10rem;
 }
 
-.nav{
+.nav {
 	position: relative;
 	cursor: pointer;
 }
@@ -30,19 +30,19 @@
 	background-color: var(--text-color);
 }
 
-.nav-btn-menu::before{
+.nav-btn-menu::before {
 	content: '';
 	top: -8px;
 	right: 0;
 }
 
-.nav-btn-menu::after{
+.nav-btn-menu::after {
 	content: '';
 	top: 8px;
 	right: 0;
 }
 
-.nav-block{
+.nav-block {
 	display: none;
 	position: absolute;
 	top: 0;
@@ -52,7 +52,7 @@
 }
 
 .nav-btn-close,
-.nav-btn-close::after{
+.nav-btn-close::after {
 	display: block;
 	position: absolute;
 	top: 0;
@@ -65,31 +65,39 @@
 	cursor: pointer;
 }
 
-.nav-btn-close::after{
+.nav-btn-close::after {
 	content: '';
 	right: 0;
 	transform: rotate(90deg);
 }
 
-.nav-list{
+.nav-list {
 	min-width: 150px;
 }
 
-.nav-item{
+.nav-item {
 	display: block;
-   	padding: 0.5rem;
-    font-size: 1rem;
-    color: var(--accent-color);
-    text-decoration: none;
-	}
-	.nav-item:hover {
+	padding: 0.5rem;
+	font-size: 1rem;
+	color: var(--accent-color);
+	text-decoration: none;
+}
+
+.nav-item:hover {
 	color: var(--text-color);
 }
 
+@media screen and (min-width: 700px) {
+	.logo-img {
+		min-width: 15.4rem;
+		margin: 0.5vw;
+	}
 
-
-
-
-
-
-
+	.nav-btn-menu,
+	.nav-btn-menu::before,
+	.nav-btn-menu::after {
+		width: 30px;
+		height: 3px;
+		border-radius: 3px;
+	}
+}

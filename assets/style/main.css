@@ -1,10 +1,10 @@
-.main{
+.main {
 	/* display: flex; */
 	width: 100%;
-	
+
 }
 
-.main-block{
+.main-block {
 	display: flex;
 	max-width: 900px;
 	margin: 0 auto;
@@ -13,7 +13,7 @@
 	text-align: center;
 }
 
-.main-block > h6{
+.main-block>h6 {
 	margin-top: 3.1rem;
 	font-size: 1rem;
 	font-weight: 700;
@@ -29,110 +29,109 @@
 	line-height: 1.3;
 }
 
-.main-block > .mod-paragraph {
-	padding: 10px;
+.main-block>.mod-paragraph {
+	padding: 15px;
 }
 
-.main-btn{
+.main-btn {
 	display: flex;
-	flex-direction : column;
+	flex-direction: column;
 	align-items: center;
 	margin-top: 2.2rem;
 }
 
-.main-btn > .btn-transparent{
+.main-btn>.btn-transparent {
 	margin-top: 17px;
 }
 
-.main-img{
+.main-img {
 	display: flex;
 	width: 100%;
 	margin-top: 2.5rem;
 	justify-content: center;
 }
 
-.main-img > img{
+.main-img>img {
 	max-width: 50%;
 	filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
 }
 
-.main-img-app{
+.main-img-app {
 	z-index: 1;
 }
 
-.main-img-app1{
-	margin-top: 50px; 
+.main-img-app1 {
+	margin-top: 50px;
 	margin-left: -40px;
 }
 
 @media screen and (min-width: 700px) {
-	.main-section{
+	.main-section {
 		min-height: 620px;
-		background: linear-gradient(0deg, rgba(23, 16, 16, 0.6), rgba(23, 16, 16, 0.6)), url("../images/img/background-min.jpg")  no-repeat center;
+		background: linear-gradient(0deg, rgba(23, 16, 16, 0.6), rgba(23, 16, 16, 0.6)), url("../images/img/background-min.jpg") no-repeat center;
 		background-size: cover;
 		z-index: -1;
 	}
 
-	.main-block > h6{
+	.main-block>h6 {
 		margin-top: 73px;
 	}
 
-	.main-title{
+	.main-title {
+		padding: 20px 30px 30px 10px;
 		color: #FFFFFF;
 	}
 
-	.main-block > h6,
-	.main-block > .mod-paragraph{
+	.main-block>h6,
+	.main-block>.mod-paragraph {
 		color: #F6F6F6;
 	}
 
-	.main-block > .mod-paragraph{
+	.main-block>.mod-paragraph {
 		margin-top: 20px;
 	}
 
 	.main-btn {
 		display: flex;
-		flex-direction : row;
+		flex-direction: row;
 		margin-top: 3.2rem;
 	}
 
-	.btn-transparent{
+	.btn-transparent {
 		background-color: transparent;
 		color: #FFFFFF;
 		border: 1px solid #FFFFFF;
 	}
-	
-	.main-btn > .btn-transparent{
+
+	.main-btn>.btn-transparent {
 		margin-top: 0;
 		max-width: 250px;
 		margin-left: 2.5rem;
 	}
 
-	.main-img{
+	.main-img {
 		margin-top: -50px;
 		margin-bottom: 150px;
 		position: relative;
 	}
 
-	.main-img::after{
+	.main-img::after {
 		content: '';
 		position: absolute;
 		bottom: -50px;
 		right: auto;
 		width: 70%;
-		max-width: 884px ;
+		max-width: 884px;
 		height: 2px;
 		border-radius: 2px;
 		border-bottom: 3px solid #E4E4E4;
 	}
 
- 	.main-img-app1{
-		margin-top: -50px; 
+	.main-img-app1 {
+		margin-top: -50px;
 		margin-left: -40px;
 	}
 
 
 
-  }
-
-
+}
