@@ -1,5 +1,5 @@
 .application {
-	margin-top: 7.25rem;
+	margin-top: 115px;
 	text-align: center;
 }
 
@@ -50,8 +50,8 @@
 	}
 
 	.application-section-row {
-		margin: 6.2rem auto;
-		margin-bottom: 8rem;
+		margin: 100px auto;
+		margin-bottom: 130px;
 		flex-direction: row-reverse;
 	}
 

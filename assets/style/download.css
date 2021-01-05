@@ -29,14 +29,14 @@
 .download-btn-block>.btn {
 	max-width: 200px;
 	min-width: 140px;
-	margin-top: 2.5rem;
-	padding: 1.12rem 1.93rem;
+	margin-top: 40px;
+	padding: 18px 30px;
 	font-size: 1rem;
-	border-radius: 0.6rem;
+	border-radius: 10px;
 }
 
 .download-btn-block>.btn-transparent {
-	margin-left: 1rem;
+	margin-left: 16px;
 	color: #FFFFFF;
 	background-color: #252B42;
 	border: 1px solid #FFFFFF;

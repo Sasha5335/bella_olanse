@@ -14,7 +14,7 @@
 }
 
 .main-block>h6 {
-	margin-top: 3.1rem;
+	margin-top: 50px;
 	font-size: 1rem;
 	font-weight: 700;
 	color: var(--text-color);
@@ -22,7 +22,6 @@
 
 .main-title {
 	font-size: var(--head-title-font-size);
-
 	padding: 10px;
 	font-family: var(--head-font-title);
 	font-weight: 700;
@@ -37,7 +36,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-top: 2.2rem;
+	margin-top: 35px;
 }
 
 .main-btn>.btn-transparent {
@@ -47,7 +46,7 @@
 .main-img {
 	display: flex;
 	width: 100%;
-	margin-top: 2.5rem;
+	margin-top: 40px;
 	justify-content: center;
 }
 
@@ -94,7 +93,7 @@
 	.main-btn {
 		display: flex;
 		flex-direction: row;
-		margin-top: 3.2rem;
+		margin-top: 50px;
 	}
 
 	.btn-transparent {
@@ -106,7 +105,7 @@
 	.main-btn>.btn-transparent {
 		margin-top: 0;
 		max-width: 250px;
-		margin-left: 2.5rem;
+		margin-left: 40px;
 	}
 
 	.main-img {
@@ -131,7 +130,4 @@
 		margin-top: -50px;
 		margin-left: -40px;
 	}
-
-
-
 }

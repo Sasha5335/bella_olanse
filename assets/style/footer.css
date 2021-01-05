@@ -50,7 +50,7 @@
 	}
 
 	.footer-logo-desktop>img {
-		max-width: 13rem;
+		max-width: 200px;
 	}
 
 	.footer-icon-block {
@@ -61,7 +61,7 @@
 	}
 
 	.footer-text-desktop {
-		font-size: 12px;
+		font-size: 0.75rem;
 		font-weight: 700;
 		line-height: 18px;
 		text-align: right;

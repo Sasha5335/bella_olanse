@@ -13,7 +13,6 @@
 	--second-bg-color: #252B42;
 	--head-font-title: 'Poppins'sans-serif;
 
-	--head-icon-margin: calc(100% - 32px);
 	--head-title-font-size: calc(2.25rem + 14 * (100vw - 320px) / (1440 - 320));
 
 	font-size: 16px;
